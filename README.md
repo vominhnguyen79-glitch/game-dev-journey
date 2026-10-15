@@ -8,4 +8,4 @@ Nhật ký hành trình 9 tháng: từ sinh viên năm nhất thành Lập trìn
 
 ## Tiến độ
 - [x] Ngày 1 (14/10): cài Unity 6.3 LTS, VS Code, Git; tạo tài khoản GitHub + itch.io
-- [ ] Ngày 2 (15/10): tạo repo này, commit đầu tiên
+- [x] Ngày 2 (15/10): tạo repo này, commit đầu tiên
