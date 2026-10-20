@@ -1,35 +1,35 @@
 ﻿using System;
+using System.ComponentModel;
 
 class Program
 {
     static void Main()
     {
-        Random Random = new Random();
-        int soBiMat = Random.Next(1, 101);
-        int soLanDoan = 0;
-        Console.WriteLine("Toi da nghi so tu 1 den 100. Doan thu xem! ");
-        while (true)
-        {
-            Console.Write("Nhap so ban doan: ");
-            int soDoan = int.Parse(Console.ReadLine());
-            soLanDoan++;
+       Random rd = new Random();
+       int sobimat = rd.Next(1, 101);
+       int solandoan =0;
 
-            if (soDoan == soBiMat)
+       while (true)
+        {
+            Console.WriteLine("Doan mot so tu 1 den 100");
+            int doan = int.Parse(Console.ReadLine());
+            solandoan++;
+            if (doan == sobimat)
             {
-                Console.WriteLine(" Chinh xac! Ban doan dung sau " + soLanDoan +" lan.");
+                Console.WriteLine(" ban da doan dung roi" + solandoan + "so lan ban doan" );
                 break;
+
             }
-            else if (soDoan < soBiMat)
+            else if(solandoan > sobimat )
             {
-                Console.WriteLine("Nho qua, thu so lon hon!");
+                Console.WriteLine("so lon qua nho hon");
 
             }
             else
             {
-                Console.WriteLine("Lon qua, thu so nho hon!");
+                Console.WriteLine("so nho qua lon hon");
             }
         }
-
 
     }
 
