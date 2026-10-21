@@ -1,15 +1,20 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 class Program
 {
     static void Main()
     {
-        int [] diem ={8, 7, 9, 4, 5};
-       int tong = 0;
-       for (int i = 0; i < diem.Length;i++)
+        int [] diem ={8, 7, 9, 4, 5, 10};
+       int max = diem [0];
+       for (int i = 1; i < diem.Length; i++)
         {
-            tong = tong + diem[i];
-            Console.WriteLine("tong diem la" + tong );
+            if ( diem [i] > max)
+            {
+                max = diem [i];
+            }
+            
         }
+        Console.WriteLine("MAX =" + max);
 
 
 } 
