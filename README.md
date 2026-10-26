@@ -19,10 +19,10 @@ Nhật ký hành trình 9 tháng: từ sinh viên năm nhất thành Lập trìn
 - [x] Ngày 3 (16/10): buổi C# đầu tiên
 - [x] Ngày 4 (17/10, bài tập chốt xong ngày 18/10) — ra quyết định và lặp lại
 - [x] Ngày 5 (19/10, bài tập chốt xong 21/10) — Mảng: chứa nhiều dữ liệu cùng lúc trong một biến; duyệt mảng bằng vòng for, tính tổng các phần tử và tìm giá trị lớn nhất
-- [ ] Ngày 6 (21/10, đang học) — Hàm (Method): chia chương trình thành các hàm có tham số và giá trị trả về
+- [x] Ngày 6 (21/10, đang học) — Hàm (Method): chia chương trình thành các hàm có tham số và giá trị trả về
   - 21/10: học khái niệm hàm, quiz câu 1–2
   - 23/10: học Phần 3 (tham số vs đối số) và Phần 4 (hàm void vs hàm có return) — ngày học nhẹ, code ít
   - 24/10: học Phần 5 (phạm vi biến), Phần 6 (hàm GoiY), quiz câu 3–5, Bài 1 TruMau chạy đúng 80/30/0
-  - Còn lại: Bài 2 viết lại game đoán số bằng hàm GoiY
-
+  - 26/10: Bài 2 hoàn thành — game đoán số dùng hàm GoiY, giới hạn 7 lượt, cờ daTrung, test thắng/thua chạy đúng
+  - [] ngày 7 (sắp tới)- chuỗi (string)
 
