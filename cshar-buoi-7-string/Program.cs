@@ -1,48 +1,40 @@
 ﻿using System;
-using System;
-
 class Program
 {
+    static int TruMau(int mau, int satThuong)
+    {
+        int mauConLai = mau - satThuong;
+        if (mauConLai < 0)
+        {
+            mauConLai = 0;
+        }
+        return mauConLai;
+
+    }
     static string GoiY(int doan, int sobimat)
     {
         if (doan == sobimat)
         {
-            return "dung roi";
+            return "ban doan dung roi";
         }
         else if (doan > sobimat)
         {
-            return "so lon qua, nho hon di";
+         return "lon qua, nho hon di";   
         }
         else
         {
-            return "so nho qua, lon hon di";
+            return "nho qua, so lon hon";
         }
     }
-
     static void Main()
     {
-        Random rd = new Random();
-        int sobimat = rd.Next(1, 101);
-        int solandoan = 0;
-        bool daTrung = false;
+        Console.WriteLine("Nhap ten nhan vat");
+        string ten = Console.ReadLine();
+        Console.WriteLine("Nhap mau hien tai");
+        int mau = int.Parse(Console.ReadLine());
+        Console.WriteLine(ten +"| Mau" + mau + "/100");
+        Console.WriteLine($"{ten} | Mau: {mau}/100");
 
-        while (solandoan < 7)
-        {
-            Console.WriteLine("Doan mot so tu 1 den 100");
-            int doan = int.Parse(Console.ReadLine());
-            solandoan++;
-            if (doan == sobimat)
-            {
-                Console.WriteLine(" ban da doan dung roi  " + solandoan + "so lan ban doan");
-                daTrung = true;
-                break;
-            }
-            string goiY = GoiY(doan, sobimat);
-            Console.WriteLine(goiY);
-        }
-        if (daTrung == false)
-        {
-            Console.WriteLine("Thua roi!");
-        }
     }
+
 }
